@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
     
-    // Custom query method with inner join
-    @Query("SELECT DISTINCT s FROM Student s JOIN FETCH s.courses c")
+    // Custom query method with join
+    @Query("SELECT DISTINCT s FROM Student s LEFT JOIN FETCH s.courses c")
     List<Student> findAllStudentsWithCourses();
 }
