@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <title>School Management System</title>
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 20px; }
-        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        h1 { color: #2c3e50; text-align: center; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
-        th { background-color: #3498db; color: white; }
-        tr:hover { background-color: #f1f1f1; }
-        .btn { display: inline-block; padding: 8px 15px; text-decoration: none; color: white; border-radius: 4px; font-size: 14px; }
-        .btn-primary { background-color: #3498db; }
-        .btn-success { background-color: #2ecc71; margin-bottom: 20px; }
-        .btn-warning { background-color: #f39c12; }
-        .alert { padding: 10px; margin-bottom: 15px; border-radius: 4px; }
-        .alert-success { background-color: #d4edda; color: #155724; }
-        .alert-danger { background-color: #f8d7da; color: #721c24; }
-        ul { margin: 0; padding-left: 20px; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #FDFBF7; color: #4A4A4A; margin: 0; padding: 40px 20px; }
+        .container { max-width: 1000px; margin: auto; background: #FFFFFF; padding: 30px 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); border: 1px solid #F0EAE1; }
+        h1 { color: #2C2C2C; text-align: center; font-weight: 600; margin-bottom: 30px; letter-spacing: -0.5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 25px; font-size: 15px; }
+        th, td { padding: 16px 20px; text-align: left; border-bottom: 1px solid #F0EAE1; }
+        th { background-color: #FAF8F5; color: #6B6B6B; font-weight: 500; text-transform: uppercase; font-size: 13px; letter-spacing: 0.5px; }
+        tr:hover { background-color: #FDFBF7; transition: background-color 0.2s ease; }
+        .btn { display: inline-block; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-size: 14px; font-weight: 500; transition: all 0.2s ease; border: 1px solid transparent; }
+        .btn-success { background-color: #2C2C2C; color: #FFFFFF; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .btn-success:hover { background-color: #000000; transform: translateY(-1px); box-shadow: 0 6px 10px rgba(0,0,0,0.1); }
+        .btn-primary { background-color: #FAF8F5; color: #2C2C2C; border-color: #E2D9CE; margin-left: 8px; }
+        .btn-primary:hover { background-color: #F0EAE1; }
+        .btn-warning { background-color: transparent; color: #8A735E; border-color: #E2D9CE; }
+        .btn-warning:hover { background-color: #FAF8F5; color: #5D4A3D; border-color: #CBBCAE; }
+        .alert { padding: 15px 20px; margin-bottom: 20px; border-radius: 8px; font-size: 14px; }
+        .alert-success { background-color: #F0F7F4; color: #2D6A4F; border: 1px solid #D8EBD8; }
+        .alert-danger { background-color: #FDF2F2; color: #B91C1C; border: 1px solid #F9DADA; }
+        ul { margin: 0; padding-left: 20px; color: #6B6B6B; }
+        li { padding: 3px 0; }
     </style>
 </head>
 <body>

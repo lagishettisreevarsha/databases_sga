@@ -1,0 +1,8 @@
+com\example\school\service\SchoolService.class
+com\example\school\DataInitializer.class
+com\example\school\Application.class
+com\example\school\controller\SchoolController.class
+com\example\school\repository\CourseRepository.class
+com\example\school\repository\StudentRepository.class
+com\example\school\model\Student.class
+com\example\school\model\Course.class
